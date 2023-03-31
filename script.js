@@ -226,3 +226,22 @@ elArrowUpBtn.addEventListener('click', () => {
   // scrollIntoView(); // 이거 왜 안됨.....???
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+// dark mode
+let isDark = false;
+
+const elDarkModeBtn = $('.navbar__btn--dark');
+/* elDarkModeBtn.addEventListener('click', () => {
+  isDark = !isDark;
+
+  if (isDark) {
+    // 다크모드
+    elDarkModeBtn.style.color = '#222';
+    elDarkModeBtn.style.background = '#fff';
+    navbar.classList.add('navbar--dark');
+  } else {
+    elDarkModeBtn.style.color = '#fff';
+    elDarkModeBtn.style.background = '#222';
+    navbar.classList.remove('navbar--dark');
+  }
+}); */

@@ -106,7 +106,7 @@ main {
 
 #navbar .navbar__btn__wrapper .navbar__btn--add {
   background-color: var(--coz-purple-600);
-  opacity: 0;
+  opacity: 1;
   color: #fff;
   border-radius: 10px;
   padding: 10px;
@@ -115,6 +115,13 @@ main {
 
 #navbar .navbar__btn__wrapper .navbar__btn--add:hover {
   opacity: 0.8;
+}
+
+#navbar .navbar__btn__wrapper .navbar__btn--dark {
+  border-radius: 10px;
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
 }
 
 /* discussion  */
@@ -436,3 +443,18 @@ main {
     margin-top: 0;
   }
 }
+
+/* Dark Mode */
+.navbar__btn--dark {
+  opacity: 0;
+}
+
+.dark {
+  background-color: #161b22 !important;
+  color: var(--coz-purple-100);
+}
+
+/* .navbar--dark {
+  background-color: #606060 !important;
+  color: var(--coz-purple-100);
+} */
